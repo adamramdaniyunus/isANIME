@@ -11,7 +11,7 @@ isANIME is a web application developed with Next.js 14 and App Router. This appl
 
 ## Demo
 
-Check out the live demo at [isANIME Demo](https://example.com)
+Check out the live demo at [isANIME Demo](https://isanime.vercel.app/)
 
 ## Technologies Used
 
