@@ -29,13 +29,13 @@ Follow these steps to run the project locally:
 
 1. Clone this repository:
 
-    ```bash
+```bash
     git clone https://github.com/username/isANIME.git
-    ```
+```
 
 2. Navigate to the project directory:
 ```bash
-cd isANIME
+    cd isANIME
 ```
 
 3. Install dependencies:

@@ -16,7 +16,7 @@ const UpComing = ({ handleMouseEnter, handleMouseLeave }: { handleMouseEnter: (e
         isFetching,
         isLoading: loading,
     } = useQuery({
-        queryFn: () => getDataUpComing(),
+        queryFn: () => getDataUpComing(1),
         queryKey: ["anime-upcoming"],
         staleTime: 30 * 60 * 1000
     })
