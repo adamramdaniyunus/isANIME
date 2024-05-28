@@ -31,7 +31,7 @@ const Footer = () => {
                                     <Link className='inline-block hover:scale-105 hover:text-black duration-200' href='/anime-list/1'>Anime Lists</Link>
                                 </li>
                                 <li>
-                                    <Link className='inline-block hover:scale-105 hover:text-black duration-200' href='/movie-list/1'>Movie Lists</Link>
+                                    <Link className='inline-block hover:scale-105 hover:text-black duration-200' href='/movies-list/1'>Movie Lists</Link>
                                 </li>
                                 <li>
                                     <Link className='inline-block hover:scale-105 hover:text-black duration-200' href='/upcoming-list/1'>Upcoming Lists</Link>
@@ -53,7 +53,7 @@ const Footer = () => {
                                     <Link className='inline-block hover:scale-105 hover:text-black duration-200' href='/anime-list/1'>Anime Lists</Link>
                                 </li>
                                 <li>
-                                    <Link className='inline-block hover:scale-105 hover:text-black duration-200' href='/movie-list/1'>Movie Lists</Link>
+                                    <Link className='inline-block hover:scale-105 hover:text-black duration-200' href='/movies-list/1'>Movie Lists</Link>
                                 </li>
                                 <li>
                                     <Link className='inline-block hover:scale-105 hover:text-black duration-200' href='/upcoming-list/1'>Upcoming Lists</Link>
