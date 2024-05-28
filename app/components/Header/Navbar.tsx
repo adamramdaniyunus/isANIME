@@ -1,7 +1,7 @@
 
 'use client'
 import { useRouter } from 'next/navigation';
-import React, {useEffect, useRef, useState} from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { CiSearch } from "react-icons/ci";
 import Link from "next/link";
 
@@ -19,7 +19,10 @@ const Navbar = () => {
         }
     };
 
-    window?.addEventListener('scroll', handleScroll)
+    useEffect(() => {
+        window?.addEventListener('scroll', handleScroll);
+    }, [])
+
 
     const handleButtonClick = async () => {
         if (searchRef.current?.value) {
@@ -41,7 +44,7 @@ const Navbar = () => {
                     className='rounded-md px-6 py-2 text-white bg-glass focus:outline-none'
                     placeholder='Search anime here..'
                 />
-                <button  onClick={handleButtonClick} className='absolute py-2 px-3 text-white right-0 top-'>
+                <button onClick={handleButtonClick} className='absolute py-2 px-3 text-white right-0 top-'>
                     <CiSearch className='text-2xl' />
                 </button>
             </div>
